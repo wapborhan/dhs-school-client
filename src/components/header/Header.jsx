@@ -21,7 +21,7 @@ const Header = () => {
           </div>
         </div>
       </div>
-      <div className="middle-bar py-4 px-4 flex justify-between">
+      <div className="middle-bar bg-white py-4 px-4 flex justify-between">
         <div className="logo">
           <Link to="/">
             <img

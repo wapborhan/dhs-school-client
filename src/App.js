@@ -3,6 +3,7 @@ import { Route, Routes } from "react-router-dom";
 import axios from "axios";
 import { Data } from "./assets/data/data";
 import footImage from "./assets/images/footer-icon.png";
+import imageBG from "./assets/images/bg.png";
 import Header from "./components/header/Header";
 import Footer from "./components/footer/Footer";
 import HomePage from "./home/HomePage";
@@ -17,10 +18,15 @@ function App() {
 
   return (
     <Fragment>
-      <div className="main-content container mx-auto px-20">
+      <div
+        className="main-content container mx-auto px-20 "
+        style={{
+          backgroundImage: `url(${imageBG})`,
+        }}
+      >
         <Header />
         <div
-          className="content pb-32 pt-5 bg-repeat-x  w-full bg-left-bottom bg-contain "
+          className="content bg-white pb-32 pt-5 bg-repeat-x  w-full bg-left-bottom bg-contain "
           style={{
             backgroundImage: `url(${footImage})`,
           }}
