@@ -6,17 +6,17 @@ const NotFound = () => {
   return (
     <Fragment>
       <section>
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-12">
-              <div class="col-sm-12 col-sm-offset-1 text-center">
-                <div class="bg-img">
-                  <h1 class="text-center">404</h1>
+        <div className="container">
+          <div className="row">
+            <div className="col-sm-12">
+              <div className="col-sm-12 col-sm-offset-1 text-center">
+                <div className="bg-img">
+                  <h1 className="text-center">404</h1>
                 </div>
-                <div class="content">
-                  <h3 class="h2">Page not found!</h3>
+                <div className="content">
+                  <h3 className="h2">Page not found!</h3>
                   <p>are you sure you want to be here?</p>
-                  <Link to="/" class="link">
+                  <Link to="/" className="link">
                     Go to Home
                   </Link>
                 </div>
