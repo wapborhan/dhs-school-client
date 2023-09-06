@@ -1,5 +1,6 @@
 import React from "react";
-import { Link } from "react-router-dom";
+
+import LinksCard from "./LinksCard";
 
 const ImportantLinks = () => {
   return (
@@ -10,31 +11,17 @@ const ImportantLinks = () => {
         </h2>
       </div>
       <div className="links">
-        <ul class="w-full rounded-lg  text-blue-800">
-          <li>
-            <Link
-              to="#"
-              class="w-fill flex p-3 pl-3 border-b-2 border-[#fca120] hover:bg-slate-100 "
-            >
-              i<span class="ml-2 truncate">এনটিআরসিএ</span>
-            </Link>
-          </li>
-          <li>
-            <Link
-              to="#"
-              class="w-fill flex p-3 border-b-2 border-[#fca120] hover:bg-slate-100"
-            >
-              i<span class="ml-2 truncate">মাধ্যমিক ও উচ্চশিক্ষা অধিদপ্তর</span>
-            </Link>
-          </li>
-          <li>
-            <Link
-              to=""
-              class="w-fill flex p-3  border-[#fca120] hover:bg-slate-100"
-            >
-              i<span class="ml-2 truncate">শিক্ষা মন্ত্রণালয়</span>
-            </Link>
-          </li>
+        <ul className="w-full rounded-lg  text-blue-800">
+          <LinksCard />
+          <LinksCard />
+          <LinksCard />
+          <LinksCard />
+          <LinksCard />
+          <LinksCard />
+          <LinksCard />
+          <LinksCard />
+          <LinksCard />
+          <LinksCard />
         </ul>
       </div>
     </div>
