@@ -9,6 +9,8 @@ import Footer from "./components/footer/Footer";
 import HomePage from "./home/HomePage";
 import NotFound from "./components/NotFound/NotFound";
 import Sidebar from "./components/sidebar/Sidebar";
+import Heading from "./components/heading/Heading";
+
 function App() {
   // useEffect(() => {
   //   axios.get(Data).then((response) => {
@@ -25,6 +27,7 @@ function App() {
         }}
       >
         <Header />
+        <Heading />
         <div
           className="content bg-white pb-32 pt-5 bg-repeat-x  w-full bg-left-bottom bg-contain "
           style={{
