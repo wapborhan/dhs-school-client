@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const HeadTeacher = () => {
   return (
-    <div className="president border-2 border-[#fca120]">
+    <div className="head-teacher border-2 border-[#fca120] ">
       <div className="bg-[#fca120] p-2">
         <h2 className="text-center text-2xl text-white font-bold">
           প্রধান শিক্ষক

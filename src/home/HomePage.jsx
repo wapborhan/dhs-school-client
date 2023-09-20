@@ -3,6 +3,7 @@ import Notice from "./notice/Notice";
 import AboutIns from "./about/AboutIns";
 import Teachers from "./teacher/Teachers";
 import Links from "./links/Links";
+import TopStudents from "./top-students/TopStudents";
 
 const HomePage = () => {
   return (
@@ -11,6 +12,7 @@ const HomePage = () => {
       <AboutIns />
       <Links />
       <Teachers />
+      <TopStudents />
     </div>
   );
 };
